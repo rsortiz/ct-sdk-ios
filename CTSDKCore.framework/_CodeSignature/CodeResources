@@ -4,206 +4,206 @@
 <dict>
 	<key>files</key>
 	<dict>
-		<key>Headers/CartrawlerSDK-Swift.h</key>
+		<key>Headers/CTSDKCore-Swift.h</key>
 		<data>
-		7HFYAdZ2QeUdljxjkWAntMSov+8=
+		L2y3WuKV3k48NyC5i0MWNiIQ+ko=
 		</data>
-		<key>Headers/CartrawlerSDK.h</key>
+		<key>Headers/CTSDKCore.h</key>
 		<data>
-		0gnt+YxNw4CBXH4FFz4c3A+fSl0=
+		hFXtErUxfzia8CUP6xo8AoAJWzo=
 		</data>
 		<key>Info.plist</key>
 		<data>
-		wytX8X5OJO00nNAKCi89Yoyp/5s=
+		l2WvniXy8xBMaAuLIqyTaDUNw4c=
 		</data>
-		<key>Modules/CartrawlerSDK.swiftmodule/arm.swiftdoc</key>
+		<key>Modules/CTSDKCore.swiftmodule/arm.swiftdoc</key>
 		<data>
-		FZJpkCQ2RjBfjjdA34Fs8IYgw6Y=
+		6bXabAVRcKr/ZU2/RECvUB6ZuJY=
 		</data>
-		<key>Modules/CartrawlerSDK.swiftmodule/arm.swiftmodule</key>
+		<key>Modules/CTSDKCore.swiftmodule/arm.swiftmodule</key>
 		<data>
-		iusJI5/KN2qe8W4WYmBYN0r9eiU=
+		ufCbW2+Akfh2q3xM16CWoTR4xyM=
 		</data>
-		<key>Modules/CartrawlerSDK.swiftmodule/arm64-apple-ios.swiftdoc</key>
+		<key>Modules/CTSDKCore.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<data>
-		bURyDrApHfuvupcy+mobxORrKPY=
+		A0NGqZiQqkgrUrPA3XR8L6iv5NM=
 		</data>
-		<key>Modules/CartrawlerSDK.swiftmodule/arm64-apple-ios.swiftmodule</key>
+		<key>Modules/CTSDKCore.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		crqpFcF4B5BODiRUIENZt7poEXw=
+		Ii/mF2/5Oay/brkhverBSJOEABE=
 		</data>
-		<key>Modules/CartrawlerSDK.swiftmodule/arm64.swiftdoc</key>
+		<key>Modules/CTSDKCore.swiftmodule/arm64.swiftdoc</key>
 		<data>
-		bURyDrApHfuvupcy+mobxORrKPY=
+		A0NGqZiQqkgrUrPA3XR8L6iv5NM=
 		</data>
-		<key>Modules/CartrawlerSDK.swiftmodule/arm64.swiftmodule</key>
+		<key>Modules/CTSDKCore.swiftmodule/arm64.swiftmodule</key>
 		<data>
-		crqpFcF4B5BODiRUIENZt7poEXw=
+		Ii/mF2/5Oay/brkhverBSJOEABE=
 		</data>
-		<key>Modules/CartrawlerSDK.swiftmodule/armv7-apple-ios.swiftdoc</key>
+		<key>Modules/CTSDKCore.swiftmodule/armv7-apple-ios.swiftdoc</key>
 		<data>
-		FZJpkCQ2RjBfjjdA34Fs8IYgw6Y=
+		6bXabAVRcKr/ZU2/RECvUB6ZuJY=
 		</data>
-		<key>Modules/CartrawlerSDK.swiftmodule/armv7-apple-ios.swiftmodule</key>
+		<key>Modules/CTSDKCore.swiftmodule/armv7-apple-ios.swiftmodule</key>
 		<data>
-		iusJI5/KN2qe8W4WYmBYN0r9eiU=
+		ufCbW2+Akfh2q3xM16CWoTR4xyM=
 		</data>
-		<key>Modules/CartrawlerSDK.swiftmodule/armv7.swiftdoc</key>
+		<key>Modules/CTSDKCore.swiftmodule/armv7.swiftdoc</key>
 		<data>
-		FZJpkCQ2RjBfjjdA34Fs8IYgw6Y=
+		6bXabAVRcKr/ZU2/RECvUB6ZuJY=
 		</data>
-		<key>Modules/CartrawlerSDK.swiftmodule/armv7.swiftmodule</key>
+		<key>Modules/CTSDKCore.swiftmodule/armv7.swiftmodule</key>
 		<data>
-		iusJI5/KN2qe8W4WYmBYN0r9eiU=
+		ufCbW2+Akfh2q3xM16CWoTR4xyM=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
-		vWz/XVWRDUtX51mnISoxX+PLM1c=
+		rQufflSa6BRD/ZFK818h5dF43xA=
 		</data>
 	</dict>
 	<key>files2</key>
 	<dict>
-		<key>Headers/CartrawlerSDK-Swift.h</key>
+		<key>Headers/CTSDKCore-Swift.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			7HFYAdZ2QeUdljxjkWAntMSov+8=
+			L2y3WuKV3k48NyC5i0MWNiIQ+ko=
 			</data>
 			<key>hash2</key>
 			<data>
-			yez8FvElusSkCliGRLa227NtZL7SsQypjGdYcN7paZg=
+			PTvFvoAqWUi0I1KcKcwc8ZLDvHf2HYnQhXp2lFceDYk=
 			</data>
 		</dict>
-		<key>Headers/CartrawlerSDK.h</key>
+		<key>Headers/CTSDKCore.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			0gnt+YxNw4CBXH4FFz4c3A+fSl0=
+			hFXtErUxfzia8CUP6xo8AoAJWzo=
 			</data>
 			<key>hash2</key>
 			<data>
-			YXIlLGuIaiTuQxQuEUss0k6qiUTG+S0JWjgjLchBmsU=
+			088eDWtN9jvE/qIvSEksyobt52Qpf27t7iyJovyYP2c=
 			</data>
 		</dict>
-		<key>Modules/CartrawlerSDK.swiftmodule/arm.swiftdoc</key>
+		<key>Modules/CTSDKCore.swiftmodule/arm.swiftdoc</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			FZJpkCQ2RjBfjjdA34Fs8IYgw6Y=
+			6bXabAVRcKr/ZU2/RECvUB6ZuJY=
 			</data>
 			<key>hash2</key>
 			<data>
-			ffayNeMmG0EAqmUVMJbAT5VwKgPGDYNgexEtqnlytW4=
+			uRq6E9/uj9o/UmJwRzA77DzxiHKFJrq5VyS2lCzbf3o=
 			</data>
 		</dict>
-		<key>Modules/CartrawlerSDK.swiftmodule/arm.swiftmodule</key>
+		<key>Modules/CTSDKCore.swiftmodule/arm.swiftmodule</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			iusJI5/KN2qe8W4WYmBYN0r9eiU=
+			ufCbW2+Akfh2q3xM16CWoTR4xyM=
 			</data>
 			<key>hash2</key>
 			<data>
-			2u+OyrLgv2pGY6CXJfXfOF6aaHCb1FYpYozIYJ8Gn+0=
+			SMD1TOTYl3iEop4dMeD6hbGJmKBa7WUPQ91sACQebEU=
 			</data>
 		</dict>
-		<key>Modules/CartrawlerSDK.swiftmodule/arm64-apple-ios.swiftdoc</key>
+		<key>Modules/CTSDKCore.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			bURyDrApHfuvupcy+mobxORrKPY=
+			A0NGqZiQqkgrUrPA3XR8L6iv5NM=
 			</data>
 			<key>hash2</key>
 			<data>
-			Gzp0LphE+01EyQxDNUgYs141Lb6brTURAuMHQRmuABA=
+			0anbWfLwA38v27yVZp2UWEBaCDx9q1XRzNPTEn+7PAo=
 			</data>
 		</dict>
-		<key>Modules/CartrawlerSDK.swiftmodule/arm64-apple-ios.swiftmodule</key>
+		<key>Modules/CTSDKCore.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			crqpFcF4B5BODiRUIENZt7poEXw=
+			Ii/mF2/5Oay/brkhverBSJOEABE=
 			</data>
 			<key>hash2</key>
 			<data>
-			PNW5zU6iMVD2BmZKgF5YeGFTa1+yFNmd9n+6VNcbJ2I=
+			J0zhhBZu+7Bqr5gb8fOyD/f8H5WmbVoE0kexEXgBZk0=
 			</data>
 		</dict>
-		<key>Modules/CartrawlerSDK.swiftmodule/arm64.swiftdoc</key>
+		<key>Modules/CTSDKCore.swiftmodule/arm64.swiftdoc</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			bURyDrApHfuvupcy+mobxORrKPY=
+			A0NGqZiQqkgrUrPA3XR8L6iv5NM=
 			</data>
 			<key>hash2</key>
 			<data>
-			Gzp0LphE+01EyQxDNUgYs141Lb6brTURAuMHQRmuABA=
+			0anbWfLwA38v27yVZp2UWEBaCDx9q1XRzNPTEn+7PAo=
 			</data>
 		</dict>
-		<key>Modules/CartrawlerSDK.swiftmodule/arm64.swiftmodule</key>
+		<key>Modules/CTSDKCore.swiftmodule/arm64.swiftmodule</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			crqpFcF4B5BODiRUIENZt7poEXw=
+			Ii/mF2/5Oay/brkhverBSJOEABE=
 			</data>
 			<key>hash2</key>
 			<data>
-			PNW5zU6iMVD2BmZKgF5YeGFTa1+yFNmd9n+6VNcbJ2I=
+			J0zhhBZu+7Bqr5gb8fOyD/f8H5WmbVoE0kexEXgBZk0=
 			</data>
 		</dict>
-		<key>Modules/CartrawlerSDK.swiftmodule/armv7-apple-ios.swiftdoc</key>
+		<key>Modules/CTSDKCore.swiftmodule/armv7-apple-ios.swiftdoc</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			FZJpkCQ2RjBfjjdA34Fs8IYgw6Y=
+			6bXabAVRcKr/ZU2/RECvUB6ZuJY=
 			</data>
 			<key>hash2</key>
 			<data>
-			ffayNeMmG0EAqmUVMJbAT5VwKgPGDYNgexEtqnlytW4=
+			uRq6E9/uj9o/UmJwRzA77DzxiHKFJrq5VyS2lCzbf3o=
 			</data>
 		</dict>
-		<key>Modules/CartrawlerSDK.swiftmodule/armv7-apple-ios.swiftmodule</key>
+		<key>Modules/CTSDKCore.swiftmodule/armv7-apple-ios.swiftmodule</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			iusJI5/KN2qe8W4WYmBYN0r9eiU=
+			ufCbW2+Akfh2q3xM16CWoTR4xyM=
 			</data>
 			<key>hash2</key>
 			<data>
-			2u+OyrLgv2pGY6CXJfXfOF6aaHCb1FYpYozIYJ8Gn+0=
+			SMD1TOTYl3iEop4dMeD6hbGJmKBa7WUPQ91sACQebEU=
 			</data>
 		</dict>
-		<key>Modules/CartrawlerSDK.swiftmodule/armv7.swiftdoc</key>
+		<key>Modules/CTSDKCore.swiftmodule/armv7.swiftdoc</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			FZJpkCQ2RjBfjjdA34Fs8IYgw6Y=
+			6bXabAVRcKr/ZU2/RECvUB6ZuJY=
 			</data>
 			<key>hash2</key>
 			<data>
-			ffayNeMmG0EAqmUVMJbAT5VwKgPGDYNgexEtqnlytW4=
+			uRq6E9/uj9o/UmJwRzA77DzxiHKFJrq5VyS2lCzbf3o=
 			</data>
 		</dict>
-		<key>Modules/CartrawlerSDK.swiftmodule/armv7.swiftmodule</key>
+		<key>Modules/CTSDKCore.swiftmodule/armv7.swiftmodule</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			iusJI5/KN2qe8W4WYmBYN0r9eiU=
+			ufCbW2+Akfh2q3xM16CWoTR4xyM=
 			</data>
 			<key>hash2</key>
 			<data>
-			2u+OyrLgv2pGY6CXJfXfOF6aaHCb1FYpYozIYJ8Gn+0=
+			SMD1TOTYl3iEop4dMeD6hbGJmKBa7WUPQ91sACQebEU=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			vWz/XVWRDUtX51mnISoxX+PLM1c=
+			rQufflSa6BRD/ZFK818h5dF43xA=
 			</data>
 			<key>hash2</key>
 			<data>
-			3PGPS1dT4cS+X4RSTAPJjoMXyxfsIO6TWINnP3CzBGI=
+			FHsPfCtor6otwLdwmJKEXGok8+2x5S+9Ub6RIljp6mk=
 			</data>
 		</dict>
 	</dict>

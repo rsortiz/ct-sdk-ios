@@ -1,11 +1,11 @@
-framework module CartrawlerSDK {
-  umbrella header "CartrawlerSDK.h"
+framework module CTSDKCore {
+  umbrella header "CTSDKCore.h"
 
   export *
   module * { export * }
 }
 
-module CartrawlerSDK.Swift {
-    header "CartrawlerSDK-Swift.h"
+module CTSDKCore.Swift {
+    header "CTSDKCore-Swift.h"
     requires objc
 }
