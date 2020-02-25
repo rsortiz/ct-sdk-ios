@@ -22,7 +22,7 @@ s.platform     = :ios
 s.platform     = :ios, "9.0"
 s.source       = { :git => "https://github.com/rsortiz/ct-sdk-ios.git", :tag => "#{s.version}" }
 
-s.ios.vendored_frameworks = 'CartrawlerSDK.framework'
+s.ios.vendored_frameworks = 'CTSDKCore.framework'
 
 s.requires_arc = true
 # s.dependency 'CTPayment'
