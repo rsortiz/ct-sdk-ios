@@ -1,0 +1,15 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 5.1.3 (swiftlang-1100.0.282.1 clang-1100.0.33.15)
+// swift-module-flags: -target arm64-apple-ios9.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -Onone -module-name CTSDKCore
+@_exported import CTSDKCore
+import Foundation
+import Swift
+public struct CTContext {
+}
+@objc @objcMembers public class CTSDK : ObjectiveC.NSObject {
+  @objc public init(_ clientID: Swift.String)
+  @objc public func steer(left: Swift.Bool)
+  @objc public func stroke(count: Swift.Int)
+  @objc override dynamic public init()
+  @objc deinit
+}
