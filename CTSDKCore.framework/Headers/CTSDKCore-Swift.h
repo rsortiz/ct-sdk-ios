@@ -183,6 +183,7 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 #pragma clang diagnostic ignored "-Watimport-in-framework-header"
 #endif
 @import ObjectiveC;
+@import UIKit;
 #endif
 
 #pragma clang diagnostic ignored "-Wproperty-attribute-mismatch"
@@ -200,15 +201,52 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 # pragma pop_macro("any")
 #endif
 
+typedef SWIFT_ENUM(NSInteger, CTAppTheme, closed) {
+  CTAppThemeLight = 0,
+  CTAppThemeDark = 1,
+};
+
+
+SWIFT_CLASS("_TtC9CTSDKCore9CTContext")
+@interface CTContext : NSObject
+- (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
+@end
+
+@class CTStyle;
 
 SWIFT_CLASS("_TtC9CTSDKCore5CTSDK")
 @interface CTSDK : NSObject
-- (nonnull instancetype)init:(NSString * _Nonnull)clientID OBJC_DESIGNATED_INITIALIZER;
-- (void)steerWithLeft:(BOOL)left;
-- (void)strokeWithCount:(NSInteger)count;
+SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, strong) CTSDK * _Nonnull shared;)
++ (CTSDK * _Nonnull)shared SWIFT_WARN_UNUSED_RESULT;
 - (nonnull instancetype)init SWIFT_UNAVAILABLE;
 + (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
+- (void)initialise:(CTStyle * _Nullable)style :(NSDictionary<NSString *, NSString *> * _Nullable)params :(BOOL)production;
 @end
+
+@class UIColor;
+@class UIFont;
+
+SWIFT_CLASS("_TtC9CTSDKCore7CTStyle")
+@interface CTStyle : NSObject
+@property (nonatomic, readonly) enum CTAppTheme theme;
+@property (nonatomic, readonly, strong) UIColor * _Nonnull primary;
+@property (nonatomic, strong) UIColor * _Nullable primaryDark;
+@property (nonatomic, strong) UIColor * _Nullable cta;
+@property (nonatomic, strong) UIColor * _Nullable ctaFont;
+@property (nonatomic, strong) UIColor * _Nullable secondaryCta;
+@property (nonatomic, strong) UIColor * _Nullable secondaryCtaFont;
+@property (nonatomic, strong) UIColor * _Nullable link;
+@property (nonatomic, strong) UIFont * _Nullable regular;
+@property (nonatomic, strong) UIFont * _Nullable bold;
+@property (nonatomic, strong) UIFont * _Nullable italic;
+- (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
+@end
+
+
+
+
+
+
 
 #if __has_attribute(external_source_symbol)
 # pragma clang attribute pop
@@ -401,6 +439,7 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 #pragma clang diagnostic ignored "-Watimport-in-framework-header"
 #endif
 @import ObjectiveC;
+@import UIKit;
 #endif
 
 #pragma clang diagnostic ignored "-Wproperty-attribute-mismatch"
@@ -418,15 +457,52 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 # pragma pop_macro("any")
 #endif
 
+typedef SWIFT_ENUM(NSInteger, CTAppTheme, closed) {
+  CTAppThemeLight = 0,
+  CTAppThemeDark = 1,
+};
+
+
+SWIFT_CLASS("_TtC9CTSDKCore9CTContext")
+@interface CTContext : NSObject
+- (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
+@end
+
+@class CTStyle;
 
 SWIFT_CLASS("_TtC9CTSDKCore5CTSDK")
 @interface CTSDK : NSObject
-- (nonnull instancetype)init:(NSString * _Nonnull)clientID OBJC_DESIGNATED_INITIALIZER;
-- (void)steerWithLeft:(BOOL)left;
-- (void)strokeWithCount:(NSInteger)count;
+SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, strong) CTSDK * _Nonnull shared;)
++ (CTSDK * _Nonnull)shared SWIFT_WARN_UNUSED_RESULT;
 - (nonnull instancetype)init SWIFT_UNAVAILABLE;
 + (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
+- (void)initialise:(CTStyle * _Nullable)style :(NSDictionary<NSString *, NSString *> * _Nullable)params :(BOOL)production;
 @end
+
+@class UIColor;
+@class UIFont;
+
+SWIFT_CLASS("_TtC9CTSDKCore7CTStyle")
+@interface CTStyle : NSObject
+@property (nonatomic, readonly) enum CTAppTheme theme;
+@property (nonatomic, readonly, strong) UIColor * _Nonnull primary;
+@property (nonatomic, strong) UIColor * _Nullable primaryDark;
+@property (nonatomic, strong) UIColor * _Nullable cta;
+@property (nonatomic, strong) UIColor * _Nullable ctaFont;
+@property (nonatomic, strong) UIColor * _Nullable secondaryCta;
+@property (nonatomic, strong) UIColor * _Nullable secondaryCtaFont;
+@property (nonatomic, strong) UIColor * _Nullable link;
+@property (nonatomic, strong) UIFont * _Nullable regular;
+@property (nonatomic, strong) UIFont * _Nullable bold;
+@property (nonatomic, strong) UIFont * _Nullable italic;
+- (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
+@end
+
+
+
+
+
+
 
 #if __has_attribute(external_source_symbol)
 # pragma clang attribute pop
@@ -618,6 +694,7 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 #pragma clang diagnostic ignored "-Watimport-in-framework-header"
 #endif
 @import ObjectiveC;
+@import UIKit;
 #endif
 
 #pragma clang diagnostic ignored "-Wproperty-attribute-mismatch"
@@ -635,15 +712,52 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 # pragma pop_macro("any")
 #endif
 
+typedef SWIFT_ENUM(NSInteger, CTAppTheme, closed) {
+  CTAppThemeLight = 0,
+  CTAppThemeDark = 1,
+};
+
+
+SWIFT_CLASS("_TtC9CTSDKCore9CTContext")
+@interface CTContext : NSObject
+- (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
+@end
+
+@class CTStyle;
 
 SWIFT_CLASS("_TtC9CTSDKCore5CTSDK")
 @interface CTSDK : NSObject
-- (nonnull instancetype)init:(NSString * _Nonnull)clientID OBJC_DESIGNATED_INITIALIZER;
-- (void)steerWithLeft:(BOOL)left;
-- (void)strokeWithCount:(NSInteger)count;
+SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, strong) CTSDK * _Nonnull shared;)
++ (CTSDK * _Nonnull)shared SWIFT_WARN_UNUSED_RESULT;
 - (nonnull instancetype)init SWIFT_UNAVAILABLE;
 + (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
+- (void)initialise:(CTStyle * _Nullable)style :(NSDictionary<NSString *, NSString *> * _Nullable)params :(BOOL)production;
 @end
+
+@class UIColor;
+@class UIFont;
+
+SWIFT_CLASS("_TtC9CTSDKCore7CTStyle")
+@interface CTStyle : NSObject
+@property (nonatomic, readonly) enum CTAppTheme theme;
+@property (nonatomic, readonly, strong) UIColor * _Nonnull primary;
+@property (nonatomic, strong) UIColor * _Nullable primaryDark;
+@property (nonatomic, strong) UIColor * _Nullable cta;
+@property (nonatomic, strong) UIColor * _Nullable ctaFont;
+@property (nonatomic, strong) UIColor * _Nullable secondaryCta;
+@property (nonatomic, strong) UIColor * _Nullable secondaryCtaFont;
+@property (nonatomic, strong) UIColor * _Nullable link;
+@property (nonatomic, strong) UIFont * _Nullable regular;
+@property (nonatomic, strong) UIFont * _Nullable bold;
+@property (nonatomic, strong) UIFont * _Nullable italic;
+- (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
+@end
+
+
+
+
+
+
 
 #if __has_attribute(external_source_symbol)
 # pragma clang attribute pop
@@ -835,6 +949,7 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 #pragma clang diagnostic ignored "-Watimport-in-framework-header"
 #endif
 @import ObjectiveC;
+@import UIKit;
 #endif
 
 #pragma clang diagnostic ignored "-Wproperty-attribute-mismatch"
@@ -852,15 +967,52 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 # pragma pop_macro("any")
 #endif
 
+typedef SWIFT_ENUM(NSInteger, CTAppTheme, closed) {
+  CTAppThemeLight = 0,
+  CTAppThemeDark = 1,
+};
+
+
+SWIFT_CLASS("_TtC9CTSDKCore9CTContext")
+@interface CTContext : NSObject
+- (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
+@end
+
+@class CTStyle;
 
 SWIFT_CLASS("_TtC9CTSDKCore5CTSDK")
 @interface CTSDK : NSObject
-- (nonnull instancetype)init:(NSString * _Nonnull)clientID OBJC_DESIGNATED_INITIALIZER;
-- (void)steerWithLeft:(BOOL)left;
-- (void)strokeWithCount:(NSInteger)count;
+SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, strong) CTSDK * _Nonnull shared;)
++ (CTSDK * _Nonnull)shared SWIFT_WARN_UNUSED_RESULT;
 - (nonnull instancetype)init SWIFT_UNAVAILABLE;
 + (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
+- (void)initialise:(CTStyle * _Nullable)style :(NSDictionary<NSString *, NSString *> * _Nullable)params :(BOOL)production;
 @end
+
+@class UIColor;
+@class UIFont;
+
+SWIFT_CLASS("_TtC9CTSDKCore7CTStyle")
+@interface CTStyle : NSObject
+@property (nonatomic, readonly) enum CTAppTheme theme;
+@property (nonatomic, readonly, strong) UIColor * _Nonnull primary;
+@property (nonatomic, strong) UIColor * _Nullable primaryDark;
+@property (nonatomic, strong) UIColor * _Nullable cta;
+@property (nonatomic, strong) UIColor * _Nullable ctaFont;
+@property (nonatomic, strong) UIColor * _Nullable secondaryCta;
+@property (nonatomic, strong) UIColor * _Nullable secondaryCtaFont;
+@property (nonatomic, strong) UIColor * _Nullable link;
+@property (nonatomic, strong) UIFont * _Nullable regular;
+@property (nonatomic, strong) UIFont * _Nullable bold;
+@property (nonatomic, strong) UIFont * _Nullable italic;
+- (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
+@end
+
+
+
+
+
+
 
 #if __has_attribute(external_source_symbol)
 # pragma clang attribute pop

@@ -2,7 +2,7 @@
 Pod::Spec.new do |s|
 
 s.name         = "CTSDKCore"
-s.version      = "0.0.9"
+s.version      = "0.0.9001"
 s.summary      = "Cartrawler SDK"
 s.description  = <<-DESC
 A toolkit for car rental & ground transport
